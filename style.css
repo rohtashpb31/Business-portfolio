@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.padd{
+    padding: 0px 40px !important;
+}
+.textgreen{
+    color:  rgb(14, 208, 69);
+}
+.textgreen:hover{
+    color:  rgb(14, 208, 69);
+}
+.navtext li a {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.navtext li a:hover {
+    color: rgb(14, 208, 69) !important;
+}
+
+.serbodder {
+    border: 1.5px solid rgb(14, 208, 69) !important;
+}
+.iconbars{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.black{
+    background-color: black !important;
+}
+.hero1,
+.hero2 {
+    height: 570px;
+    width: 100%;
+    color: white;
+}
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 70px;
+}
+.hero2 img{
+    height: 450px;
+    width: 300px;
+    border-radius: 450px;
+    box-shadow: 0px -7px 36px  rgb(81, 168, 106);
+}
+
+.hero1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.hero1 button {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(14, 208, 69);
+    border-radius: 14px;
+    outline: none;
+    color: white;
+    font-weight: 700;
+}
+
+.hero1 h3 {
+    color: rgb(14, 208, 69);
+    font-weight: 600;
+}
+
+.hero1 h1 {
+    font-weight: 700;
+font-size: 3.2rem;
+padding-top: 7px;
+}
+.div p{
+    font-size: 1.3rem;
+}
+
+.auto-type {
+    color: white;
+    margin-left: 15px;
+}
+
+.my {
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: auto !important;
+}
+
+.my span {
+    color: rgb(14, 208, 69);
+    padding-right: 10px;
+}
+
+.verma a {
+    color: white;
+    border: 2.5px solid rgb(14, 208, 69);
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 20px;
+    width: 100%;
+    padding:20px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verma a:hover {
+    color: white;
+    background-color: rgb(14, 208, 69);
+}
+.verms i{
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 800;
+
+}
+#particles-js{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    bottom: 140px;
+}
+.web ,.devlopment,.graphic{
+    height: 200px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    background-image: url("/service-icon-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+.nature a{
+color: white;
+text-decoration: none;
+font-size: 1.3rem;
+font-weight: 700;
+margin-top: 40px;
+}
+.nature img{
+    margin-top: 20px;
+}
+.nature a:hover{
+    color: rgb(14, 208, 69);
+}
+.natures{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    padding-top: 30px;
+    box-shadow: 0px 2px 29px -7.5px rgb(136, 131, 131);
+}
+.natureee a{
+color: white;
+text-decoration: none;
+font-size: 1.3rem;
+font-weight: 700;
+margin-top: 20px;
+text-align: start;
+}
+.natureee span{
+    color: rgb(14, 208, 69);
+}
+.natureee a:hover{
+    color: rgb(14, 208, 69);   
+}
+.natureee{
+    padding: 29px;
+}
+.hr{
+    color: white;
+    border-radius: 10px;
+    background-color:rgb(14, 208, 69) ;
+    padding: 4px 10px;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+.hr:hover{
+    color: white !important;
+}
+.count{
+    width: 100%;
+    color: rgb(14, 208, 69);
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 10px;
+
+}
+.count span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0px;
+}
+.count p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0px;
+}
+.count h6{
+    font-size: 1.3rem;
+    color: white;
+}
+.divfrom h3{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 50px;
+}
+.divfrom span{
+    color: rgb(14, 208, 69);
+    margin-left: 10px;
+}
+.divfrom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.divfrom input{
+    background-color: black;
+    color: white;
+    width: 90%;
+    padding: 10px 25px;
+    font-weight: 600;
+    outline: none;
+    margin: 10px 10px;
+    border: 2px solid white;
+}
+.subject{
+    padding: 0px;
+}
+.massage{
+    height: 100px;
+}
+.divequal{
+    display: flex;
+    align-items: center;
+}
+.divequal input{
+    width: 43%;
+    flex-direction: row;
+
+}
+.divfrom button{
+    margin: 10px;
+    height: 40px;
+    color: white;
+    background-color:rgb(14, 208, 69) ;
+    width: 130px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color:rgb(14, 208, 69);
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.footer p{
+    font-weight: 700;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    
+    padding:10px;
+}
+
+@media (max-width: 559px){
+    .hero1 h1{
+        font-size: 1.8rem;
+    }
+    .hero1{
+    height: 430px;
+    }
+    .subject{
+        width: 41.3% !important;
+    }
+    .fluid{
+        padding: -10px !important;
+    }
+    .padd{
+        padding: 0px !important;
+    }
+    #particles-js{
+height: 50%;
+    }
+}
